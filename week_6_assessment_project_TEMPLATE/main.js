@@ -46,11 +46,18 @@ function getFetch() {
         let container = document.createElement("div");
         container.classList.add("mealContainer");
         mealsList.appendChild(container);
-
-        // use the example above to complete TASK 2
+  // use the example above to complete TASK 2
         // TASK 2
-        // 1) add a header to the container
-        // 2) add an image to the container UNDER the header
+        // Add a header to the container
+        let header = document.createElement("h2");
+        header.innerHTML = data.meals[i].strMeal;
+        container.appendChild(header);
+
+        // Add an image to the container UNDER the header
+        let image = document.createElement("img");
+        image.src = data.meals[i].strMealThumb;
+        image.alt = data.meals[i].strMeal;
+        container.appendChild(image);
           // ex: "Broccoli & Stilton soup", followed by a picture of
           // broccoli & stilton soup
         // ... add code here
@@ -62,3 +69,5 @@ function getFetch() {
       console.log(`error ${err}`)
     });
 }
+//calling the fetch function
+getFetch();
