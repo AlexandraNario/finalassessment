@@ -6,6 +6,16 @@ console.log("connected to main.js")
     // Test that each works with the fetch request
 const CATEGORY = [
   "Starter",
+  "Beef",
+  "Chicken",
+  "Lamb",
+  "Pasta",
+  "Pork",
+  "Seafood",
+  "Vegetarian",
+  "Vegan",
+  "Side",
+  "Dessert",
 ]
 
 // select element that will store our category options
