@@ -38,3 +38,6 @@ Your assessment will be considered graded and passing when each of the following
 
    Reference:
     ![Styling Reference](https://raw.githubusercontent.com/The-Knowledge-House/IF_23_24_week_6_assessment_TEMPLATE/main/week_6_assessment_project_TEMPLATE/images/reference.png?token=GHSAT0AAAAAACHRUK46CVMED2NPS5I2YQUOZIDSCFA)
+
+NOTE: 
+I opened it using live server
